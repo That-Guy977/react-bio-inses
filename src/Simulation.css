@@ -1,0 +1,8 @@
+.media-control {
+  width: 30px;
+  height: 30px;
+}
+
+.media-control:active, .active {
+  border-style: inset;
+}

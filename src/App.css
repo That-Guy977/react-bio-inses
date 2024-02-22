@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 20px 0;
+  background-color: var(--primary);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.title {
+  margin: 5px 0;
+  font-size: 36pt;
+}
+
+.subtitle {
+  margin: 5px 0;
+  font-size: 20pt;
+}
+
+main {
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg); 
+  }
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbutton {
+  display: flex;
+  width: 150px;
+  height: 80px;
+  margin: 5px;
+  border: medium outset var(--accent);
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+  background-color: var(--secondary);
+  font-size: 16pt;
+  text-decoration: none;
+}
+
+.navbutton:hover {
+  border-style: inset;
+}

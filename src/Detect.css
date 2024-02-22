@@ -1,0 +1,14 @@
+.detect-result {
+  display: flex;
+  gap: 20px;
+}
+
+.detect-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detect-counts {
+  font-size: 20pt;
+}
